@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: silver;
+  border-radius: 4%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .card {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+  }
+}

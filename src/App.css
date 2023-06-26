@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(238, 238, 238);
+}
+
+h1 {
+  color: darkslategrey;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Moo Lah Lah", cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: auto;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: silver;
+  color: platinum;
+}
+
+.mainContainer {
+  max-width: 1000px;
+}
+
+.routes {
+  display: flex;
+  justify-content: center;
+}
+
+.breedImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breedImageContainer {
+  position: relative;
+  padding: 10px;
+}
+
+.breedImage {
+  height: 170px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.breedImage:hover {
+  transform: scale(1.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.likeUnlikeButton {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
