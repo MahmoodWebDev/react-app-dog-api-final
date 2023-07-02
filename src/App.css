@@ -40,6 +40,7 @@ nav ul li a:hover {
 }
 
 .mainContainer {
+  text-align: center;
   max-width: 1000px;
 }
 

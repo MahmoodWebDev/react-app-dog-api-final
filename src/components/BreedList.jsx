@@ -6,8 +6,7 @@ import { fetchBreeds } from "../api/api";
 import "../styles/BreedList.css";
 import BreedImages from "./BreedImages";
 
-// Define the component
-// eslint-disable-next-line react/prop-types
+// Define the BreedList component
 const BreedList = ({ showFav }) => {
   // Set up a piece of state to hold the list of breeds. Initialize it as an empty array.
   const [breeds, setBreeds] = useState([]);
@@ -43,24 +42,27 @@ const BreedList = ({ showFav }) => {
     getBreeds(); // Call the getBreeds function.
   }, []); // Pass an empty dependencies array to the effect, which means the effect will only run once, when the component mounts.
 
-  // Render a select dropdown with the breeds
+  // Render the BreedList component
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <button>
-              {showFav ? (
-                <Link to="/" style={{ textAlign: "center" }}>
-                  All Breeds
-                </Link>
-              ) : (
-                <Link to="/favbreeds/">⭐ Favorite Breeds </Link>
-              )}
-            </button>
-          </li>
-        </ul>
-      </nav>
+      <Link
+        to={showFav ? "/" : "/favbreeds/"}
+        style={{
+          textDecoration: "none",
+        }}
+      >
+        <button
+          className="link-button"
+          style={{
+            cursor: "pointer",
+            textAlign: "center",
+            margin: "20px",
+          }}
+        >
+          {showFav ? "All Breeds" : "⭐ Favorite Breeds"}
+        </button>
+      </Link>
+
       <h2>{showFav ? "Filter Favorite Breeds" : "All Breeds"}</h2>
       <select onChange={(e) => setBreed(e.target.value)}>
         <option>Select Dog Breed</option>
@@ -85,5 +87,5 @@ BreedList.defaultProps = {
   showFav: false,
 };
 
-// Export the component
+// Export the BreedList component
 export default BreedList;
