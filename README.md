@@ -49,7 +49,7 @@ MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements :clap:
 
-- [Dog API](https://thedogapi.com/)
+- [Dog API](https://github.com/MahmoodWebDev/react-app-dog-api-final/blob/main/demo.png)
 
 ---
 
