@@ -43,9 +43,13 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 MIT License. See `LICENSE` for more information.
 
-## Demo :world:
+## Demo :movie_camera:
 
-- [Dog API](https://react-app-dog-api-final.vercel.app/)
+- [Live Demo](https://react-app-dog-api-final.vercel.app/)
+
+## Acknowledgements :clap:
+
+- [Dog API](https://thedogapi.com/)
 
 ---
 
