@@ -43,7 +43,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 MIT License. See `LICENSE` for more information.
 
-## Acknowledgements :clap:
+## Demo :world:
 
 - [Dog API](https://react-app-dog-api-final.vercel.app/)
 
