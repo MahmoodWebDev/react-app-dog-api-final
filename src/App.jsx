@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <h1>Dog Breeds 🐶</h1>
+      <h1> 🐶 Breeds </h1>
       <div className="mainContainer">
         <Routes>
           <Route path="/" element={<BreedList showFav={false} />} />
