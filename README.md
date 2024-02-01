@@ -2,7 +2,7 @@
 
 ## Overview
 
-Dive into the world of dogs with our React-based web application. Utilizing the Dog API, this app presents a delightful interface for dog enthusiasts to explore a myriad of dog breeds, complete with random dog images to brighten your day. It's a perfect blend of technology and pet love, designed to offer an engaging user experience.
+Dive into the world of dogs with my React-based web application. Utilizing the Dog API, this app presents a delightful interface for dog enthusiasts to explore a myriad of dog breeds, complete with random dog images to brighten your day. It's a perfect blend of technology and pet love, designed to offer an engaging user experience.
 
 ## Features :rocket:
 
